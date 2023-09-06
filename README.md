@@ -1,7 +1,7 @@
 # RollaBall
 
 ## Aim:
-
+To Roll a Ball using C# program in unity .
 ## Algorithm:
 
 1. File -> Scene -> Select the scene -> Save as-> New folder(Scenes)-> File name (MiniGame)
@@ -89,5 +89,7 @@ public class balls : MonoBehaviour
 }
 ```
 ## Output:
+![Screenshot (23)](https://github.com/TejaswiniGugananthan/RollaBall/assets/121222763/938795f6-d8df-44fc-883c-f576625cbe86)
 
 ## Result:
+Thus, The 3D application for Roll the Ball objects in unity is developed successfully.
