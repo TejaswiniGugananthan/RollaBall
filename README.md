@@ -43,7 +43,51 @@ Copy the PlayerController and drag to Script folder
 Double click the PlayerController file and type the coding
 
 ## Program:
+Name: G.Tejaswini
+reg no: 212222230157
+```c#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
+public class balls : MonoBehaviour
+{
+    float XForce = 5.0f;
+    float zForce = 20.0f;
+    float yForce = 10.0f;
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        float x = 0.0f, y = 0.0f, z = 0.0f;
+        if(Input.GetKey(KeyCode.A))
+        {
+            x = x - XForce;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            x = x + XForce;
+        }
+        if (Input.GetKey(KeyCode.W))
+        {
+            z = z - zForce;
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            z = z + zForce;
+        }
+        if (Input.GetKey(KeyCode.Space))
+        {
+            y = yForce;
+        }
+        GetComponent<Rigidbody>().AddForce(x, y, z);
+    }
+}
+```
 ## Output:
 
 ## Result:
